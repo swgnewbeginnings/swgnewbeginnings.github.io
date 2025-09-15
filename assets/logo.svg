@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 260">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffe27a"/>
+      <stop offset="1" stop-color="#ffd54a"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1100" height="260" fill="none"/>
+  <g filter="url(#glow)">
+    <text x="10" y="125" font-size="92" font-weight="800" font-family="Orbitron, Rajdhani, system-ui" fill="url(#g)">
+      SWG NEW BEGINNINGS
+    </text>
+    <text x="14" y="185" font-size="28" font-weight="600" font-family="Orbitron, Rajdhani, system-ui" fill="#fff8cc" opacity="0.9">
+      Classic Pre-CU • Modern Polish
+    </text>
+  </g>
+</svg>

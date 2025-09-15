@@ -1,0 +1,8 @@
+SWG New Beginnings — Pre-CU Patch Notes
+=====================================
+
+• AAA site v3 rebuild (no status badge)
+• Launcher link wired (Google Drive)
+• Discord + Donate buttons
+• Local patch notes file to avoid HTTPS mixed-content on GitHub Pages
+• Clear instructions: Client Downloader + Full Scan
